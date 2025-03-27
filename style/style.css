@@ -43,6 +43,7 @@ header nav > a:hover{
     color: #692100;
 }
 main  p{
+    max-width: 500px;
     text-align: justify;
     text-indent: 30px;
 }
