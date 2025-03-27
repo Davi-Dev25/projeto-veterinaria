@@ -70,6 +70,7 @@ h1, h2{
 .paragrafo{
     line-height: 150%;
     margin-bottom:30px;
+    text-indent: 30px;
 }
 .botao{
     background-color: #f17109;
@@ -99,7 +100,7 @@ h1, h2{
     transition: .5s;
 }
 #inicio > div{
-    flex:1 0 500px ;
+    flex:1 1 500px ;
     align-content: center;
 }
 #clinica{
@@ -107,7 +108,7 @@ h1, h2{
     flex-flow:row wrap ;
 }
 #clinica > div{
-    flex: 1 0 500px;
+    flex: 1 1 500px;
     align-content: center;
 }
 #farmacia{
@@ -115,7 +116,7 @@ h1, h2{
     flex-flow: row wrap;
 }
 #farmacia > div{
-    flex:1 0 500px;
+    flex:1 1 500px;
     align-content:center;
 }
 
