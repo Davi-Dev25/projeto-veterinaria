@@ -19,15 +19,20 @@ header{
     
 
 }
+#burguer{
+    color: white;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+}
 
 header > a{
     margin: 10px;
 }
 header > nav{
     text-align: center;
+    display: none;
 
-
-    display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
@@ -35,6 +40,7 @@ header > nav{
 }
 header nav > a {
     color: white;
+    display: block;
     font-size: 1.3em;
     font-weight: 600;
     margin: 10px;
@@ -77,6 +83,7 @@ h1, h2{
 .botao{
     background-color: #f17109;
     color: white;
+    display: block;
     padding: 15px;
     margin: 10px;
     border-radius: 15px;
@@ -91,6 +98,7 @@ h1, h2{
 .transparente{
     background-color: rgb(180, 177, 177);
     color:#f17109;
+    display: block;
     padding: 15px;
     margin: 15px;
     border-radius: 10px;
