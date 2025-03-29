@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px){
+    #burguer{
+        display: none;
+    }
+    header > nav{
+        display: flex;
+        flex-flow: row wrap ;
+    }
+    header > nav > a{
+        display: inline-block;
+    }
+    main > #cachorro{
+        width:580px;
+        height: 580px;
+    }
+    main > #clinica{
+        width: 480px;
+        height: 480px;
+
+    }
+    main > #shop{
+        width: 645px; 
+        height: 438px;
+    }
+    main > .botao{
+        display: inline-block;
+    }
+    main > .transparente{
+        display: inline-block;
+    }
+}

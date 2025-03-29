@@ -32,7 +32,6 @@ header > a{
 header > nav{
     text-align: center;
     display: none;
-
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
@@ -51,7 +50,7 @@ header nav > a:hover{
     color: #692100;
 }
 main{
-    max-width: 500px;
+    max-width: 600px;
 }
 
 
