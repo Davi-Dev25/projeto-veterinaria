@@ -50,7 +50,6 @@ header nav > a:hover{
     color: #692100;
 }
 section{
-    margin: 10px;
     padding: 10px;
 }
 section > img{
@@ -105,6 +104,14 @@ h1, h2{
     color: white;
     transition: .5s;
 }
+.absolute{
+    width: 100%;
+    
+    position: absolute;
+    bottom: 50%;
+    left: 0%;
+    z-index: -10;
+}
 #inicio > div{
     flex:1 1 500px ;
     align-content: center;
@@ -121,11 +128,11 @@ h1, h2{
 #farmacia{
     display: flex;
     flex-flow: row wrap;
-    justify-content:center ;
+    justify-content:center;
 }
 #farmacia > div{
     flex:1 1 500px;
-    align-content:center;
+    justify-content: center;
 }
 
 #duvidas{
@@ -136,5 +143,75 @@ h1, h2{
 
 #duvidas > div{
     flex:1 1 500px ;
+}
+.duvida{
+    position: relative;
+}
+.duvida h3{
+    padding: 15px;
+    border: 2px solid #ff725e;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
+.duvida img{
+    position: absolute;
+    top: 25px;
+    right: 24px;
+}
+.duvida p{
+    border-left: 1px solid #ff725e;
+    border-right: 1px solid #ff725e;
+    border-bottom: 1px solid #ff725e;;
+    border-radius:0px 0px 8px 8px;
+    margin-top: -8px;
+    padding: 20px;
+}
+
+footer{
+    background-color: rgba(255, 152, 108, 0.367);
+    padding: 20px;
+
+    display: flex;
+    gap: 80px;
+}
+
+footer img,
+footer .titulo{
+    display: block;
+    font-weight: 600;
+    margin-bottom:20px;
+}
+
+div nav > a{
+    color: #12171a;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    max-width: 360px;
+}
+div nav > a:hover{
+    color: #fc3217;
+    transition: 0.5s;
+}
+footer p a{
+    color: #cc6d00;
+    text-decoration: none;
+}
+
+footer p a:hover{
+    color: #8b1d02;
+    transition: 0.5s;
+}
+
+#copy{
+    background-color: #12171a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#copy a{
+    color: #8b1d02;
+    text-decoration: none;
 }
