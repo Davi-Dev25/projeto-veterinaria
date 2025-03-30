@@ -49,11 +49,6 @@ header nav > a {
 header nav > a:hover{
     color: #692100;
 }
-main{
-    max-width: 600px;
-}
-
-
 section{
     margin: 10px;
     padding: 10px;
@@ -67,8 +62,10 @@ section > img{
     justify-content: center;
     gap:32px;
     padding: 12px;
+
     position: relative;
 }
+
 h1, h2{
     font-weight: 600px;
     font-size: 2em;
