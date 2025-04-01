@@ -53,7 +53,7 @@ section{
     padding: 10px;
 }
 section > img{
-    max-width: 400px;
+    max-width: 100%;
 }
 #inicio{
     display: flex;
@@ -81,7 +81,7 @@ h1, h2{
     display: block;
     padding: 15px;
     margin: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
     text-decoration: none;
 
 }
@@ -95,7 +95,7 @@ h1, h2{
     color:#f17109;
     display: block;
     padding: 15px;
-    margin: 15px;
+    margin: 10px;
     border-radius: 10px;
     text-decoration: none;
 }
