@@ -43,4 +43,8 @@
     #farmacia > p{
         max-width: 950px;
     }
+    footer{
+        display: flex;
+        flex-flow: row-reverse nowrap;
+    }
 }
