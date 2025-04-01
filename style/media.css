@@ -19,6 +19,9 @@
         width: 645px; 
         height: 438px;
     }
+    img{
+        max-width: 500px;
+    }
     .botao{
         display: inline-block;
     }

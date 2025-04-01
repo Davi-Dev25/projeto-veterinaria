@@ -149,7 +149,6 @@ h1, h2{
 }
 .duvida h3{
     padding: 15px;
-    margin: 10px;
     border: 2px solid #ff725e;
     border-radius: 8px;
     cursor: pointer;
@@ -166,11 +165,15 @@ h1, h2{
     border-bottom: 1px solid #ff725e;;
     border-radius:0px 0px 8px 8px;
     margin-top: -8px;
-    padding: 20px;
+    padding:0px 20px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
 }
-.paragrafo{
-    display: none;
+.duvida.ativa .paragrafo{
+    
 }
+
 
 footer{
     background-color: rgba(255, 152, 108, 0.367);

@@ -8,5 +8,7 @@ function clickMenu() {
 let elementosDuvida = document.querySelectorAll('.duvida')
 
 elementosDuvida.forEach(function (duvida){
-    duvida.addEventListener
+    duvida.addEventListener('cick', function(){
+        duvida.classList.add('fundo-verde')
+    })
 })
