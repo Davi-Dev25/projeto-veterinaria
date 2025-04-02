@@ -130,6 +130,9 @@ h1, h2{
     flex-flow: row wrap;
     justify-content:center;
 }
+ul{
+    margin: 10px;
+}
 #farmacia > div{
     flex:1 1 500px;
     justify-content: center;
@@ -149,6 +152,7 @@ h1, h2{
 }
 .duvida h3{
     padding: 15px;
+    margin:10px 10px 0px 0px ;
     border: 2px solid #ff725e;
     border-radius: 8px;
     cursor: pointer;
