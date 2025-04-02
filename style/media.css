@@ -19,12 +19,8 @@
         width: 645px; 
         height: 438px;
     }
-    img{
-        max-width: 500px;
-    }
-    .absolute{
-        width: 100%;
-    }
+
+
     .botao{
         display: inline-block;
     }
@@ -34,7 +30,6 @@
 
     .absolute{
         width: 100%;
-        
         position: absolute;
         bottom: 0%;
         left: 0%;

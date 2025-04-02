@@ -159,7 +159,7 @@ h1, h2{
     top: 25px;
     right: 24px;
 }
-.duvida p{
+.duvida .paragrafo{
     border-left: 1px solid #ff725e;
     border-right: 1px solid #ff725e;
     border-bottom: 1px solid #ff725e;;
@@ -169,9 +169,13 @@ h1, h2{
     height: 0;
     opacity: 0;
     overflow: hidden;
+    transition: .2s ;
 }
+
 .duvida.ativa .paragrafo{
-    
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
 }
 
 
